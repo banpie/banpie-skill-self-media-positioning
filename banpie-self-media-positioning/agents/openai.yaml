@@ -1,0 +1,4 @@
+interface:
+  display_name: "自媒体定位助手"
+  short_description: "读取真实经历与账号数据，生成并验证可执行的自媒体定位方案"
+  default_prompt: "使用 $banpie-self-media-positioning 读取我的资料，先判断账号阶段，再生成可验证的自媒体定位方案。"
