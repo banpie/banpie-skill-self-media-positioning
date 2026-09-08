@@ -1,4 +1,4 @@
 interface:
   display_name: "自媒体定位助手"
-  short_description: "用模板和案例帮助个人或企业寻找账号定位，有限补问，并用真实反馈持续调整"
-  default_prompt: "使用 $banpie-self-media-positioning 帮我找账号定位，优先利用我提供的资料；没有资料时给我简短模板和案例，收到后先给初步判断，不要反复追问。"
+  short_description: "按需讲解定位，帮助个人与企业从新手起步到成熟账号调整，模板优先且补问有限"
+  default_prompt: "使用 $banpie-self-media-positioning 帮我找账号定位，优先利用我提供的资料；按我的经验决定是否解释基础，没有资料时给我简短模板和案例，收到后先给初步判断，不要反复追问。"
