@@ -7,6 +7,7 @@ from pathlib import Path
 
 SOURCES = (
     "SKILL.md",
+    "references/course-companion.md",
     "references/intake.md",
     "references/positioning-method.md",
     "references/scenarios.md",
@@ -53,7 +54,7 @@ def render(root: Path) -> str:
         "> 此文件同时用于 Agent 系统提示词与普通对话，不独立编辑；更新技能后重新导出。\n\n"
         "请按下面的完整流程担任自媒体定位顾问。普通对话使用时将本段及后续正文一起提供；"
         "若当前请求是开始定位，从第1步开始，并在资料核对处等待。仅要求审阅提示词时不启动咨询。"
-        "本文件已包含入口、信息模板、方法、场景、研究、诊断、示范与交付模板，"
+        "本文件已包含入口、课程对照、信息模板、方法、场景、研究、诊断、示范与交付模板，"
         "文内参考链接指向本文件对应章节，无需寻找同名插件。"
         "引用的虚构案例用于示范，不作为当前用户资料，不自动运行完整案例。\n\n"
         + "\n\n---\n\n".join(sections) + "\n"
