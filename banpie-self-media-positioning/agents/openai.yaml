@@ -1,4 +1,4 @@
 interface:
   display_name: "自媒体定位助手"
-  short_description: "沿用课程骨架与血肉，完整整理资料，有限补问并经核对同意后生成定位"
-  default_prompt: "请使用 $banpie-self-media-positioning 帮我找账号定位，先介绍骨架与血肉、流程与本轮交付，给我相关模板和案例，资料不足就按模板收集；资料齐全则列出完整资料表，等待我核对并确认生成，确认前不要给定位。"
+  short_description: "半撇创作的定位助手：先通俗介绍，统一整理资料，核对同意后生成方向"
+  default_prompt: "请使用 $banpie-self-media-positioning 帮我找账号定位，先介绍你由谁创作，用通俗语言解释定位、流程与本轮交付，给我相关模板和案例，资料不足就按模板收集；资料齐全则列出完整资料表，等待我核对并确认生成，确认前不要给定位。"
